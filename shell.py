@@ -1,3 +1,6 @@
+#!/usr/bin/python
+# ig: @thelinuxchoice
+
 import os,socket,subprocess,threading,sys;
 
 if len(sys.argv[1:]) != 3:
@@ -31,6 +34,6 @@ try:
 	if system == "windows":
 	       win()
         elif system == "linux":
-    	   linux()
+               linux()
 except KeyboardInterrupt:
     s.close()
